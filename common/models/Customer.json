@@ -1,5 +1,6 @@
 {
     "name": "Customer",  
+    "plural" : "Customers",
     "description": "A Customer model representing our customers.",
     "base": "PersistedModel",
     "idInjection": false,

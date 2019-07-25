@@ -16,5 +16,9 @@
   "Customer" : { 
     "dataSource": "payments",
     "public": true
+  },
+  "Account" : { 
+    "dataSource": "payments",
+    "public": true
   }
 }

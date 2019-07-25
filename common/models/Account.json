@@ -1,0 +1,35 @@
+{
+    "name": "Account",
+    "description": "A Customer account representing - saving account",
+    "plural" : "Accounts",
+    "base": "PersistedModel",
+    "idInjection": false,
+    "strict": true,
+    "properties": {
+        "accountName": {
+            "type": "String",
+            "required": "true"
+        },
+        "accountid": {
+            "type": "number",
+            "id": true,
+            "description": "Account id"
+        },
+        "accountOpenDate": {
+            "type": "date",
+            "description": "date on account is opened"
+        },
+        "accountStatus": {
+            "type": "string",
+            "description": "date on account is opened"
+        },
+        "currency" : {
+            "type" : "string" ,
+            "description" : "currency of the account"
+        },
+        "balance" : {
+            "type" : "number" ,
+            "description" : "Account balance"
+        }
+    }
+}
