@@ -1,0 +1,10 @@
+{
+    "payments": {
+        "name": "payments",
+        "connector": "sqlite3",
+        "file" : "/Applications/payments.db",
+        "debug" : "false"
+      }
+
+
+}
