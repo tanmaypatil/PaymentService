@@ -1,0 +1,43 @@
+{
+    "name": "Transaction",
+    "description": "Transaction between 2 customer accounts",
+    "plural" : "Transactions",
+    "base": "PersistedModel",
+    "idInjection": false,
+    "strict": true,
+    "properties": {
+        "transactionid": {
+            "type": "number",
+            "id": true,
+            "description": "unique transaction id"
+        },
+        "tranDate": {
+            "type": "date",
+            "description": "date on account transaction is performed"
+        },
+        "valueDate": {
+            "type": "date",
+            "description": "date on which account transaction is performed"
+        },
+        "tranStatus": {
+            "type": "string",
+            "description": "status of transaction"
+        },
+        "currency" : {
+            "type" : "string" ,
+            "description" : "currency of the transaction currency"
+        },
+        "crAccountId" : {
+            "type" : "string" ,
+            "description" : "credit account id"
+        },
+        "drAccountId" : {
+            "type" : "string" ,
+            "description" : "debit account id"
+        },
+        "tranAmount" : {
+            "type" : "number" ,
+            "description" : "transaction amount"
+        }
+    }
+}

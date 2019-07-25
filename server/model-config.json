@@ -20,5 +20,9 @@
   "Account" : { 
     "dataSource": "payments",
     "public": true
+  },
+  "Transaction" : { 
+    "dataSource": "payments",
+    "public": true
   }
 }
