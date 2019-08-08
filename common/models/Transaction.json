@@ -9,17 +9,18 @@
         "transactionid": {
             "type": "number",
             "id": true,
+            "generated" : true,
             "description": "unique transaction id"
         },
-        "tranDate": {
+        "trandate": {
             "type": "date",
             "description": "date on account transaction is performed"
         },
-        "valueDate": {
+        "valuedate": {
             "type": "date",
             "description": "date on which account transaction is performed"
         },
-        "tranStatus": {
+        "transtatus": {
             "type": "string",
             "description": "status of transaction"
         },
@@ -27,15 +28,15 @@
             "type" : "string" ,
             "description" : "currency of the transaction currency"
         },
-        "crAccountId" : {
+        "craccountid" : {
             "type" : "string" ,
             "description" : "credit account id"
         },
-        "drAccountId" : {
+        "draccountid" : {
             "type" : "string" ,
             "description" : "debit account id"
         },
-        "tranAmount" : {
+        "tranamount" : {
             "type" : "number" ,
             "description" : "transaction amount"
         }

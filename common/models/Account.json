@@ -6,7 +6,7 @@
     "idInjection": false,
     "strict": true,
     "properties": {
-        "accountName": {
+        "accountname": {
             "type": "String",
             "required": "true"
         },
@@ -15,11 +15,11 @@
             "id": true,
             "description": "Account id"
         },
-        "accountOpenDate": {
+        "accountopendate": {
             "type": "date",
             "description": "date on account is opened"
         },
-        "accountStatus": {
+        "accountstatus": {
             "type": "string",
             "description": "date on account is opened"
         },
