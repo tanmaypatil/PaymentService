@@ -10,4 +10,7 @@ In such cases , backend can be this simple payment services based on node.js and
 * Account has lien placed on it ( WIP)
 * Account is frozen ( WIP)
 
+## Database used 
+* Sqllite database is used for storing customer , account transactions
+* Loopback framework is used for creating apis.
 
