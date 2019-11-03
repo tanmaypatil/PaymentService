@@ -1,9 +1,12 @@
 # PaymentService
 Payment service is a illustration of simple transfer between accounts in the bank.
 This service can be used for testing purposes on simple scenarios 
-* Account in payment is invalid 
-* Account does not have sufficient balance 
-* Account has lien placed on it 
-* Account is frozen 
+Many of the times , simple mocking or stubbing of payment api's can not be used as mocking and stubbing works on the request data .
+In such cases , backend can be this simple payment services based on node.js and loopback 
+## Scenarios handled .
+* Credit/Debit Account in payment is invalid 
+* Debit Account does not have sufficient balance 
+* Account has lien placed on it ( WIP)
+* Account is frozen ( WIP)
 
 
