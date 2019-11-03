@@ -6,13 +6,17 @@
     "idInjection": false,
     "strict": true,
     "properties": {
+        "id" : {
+            "type" : "number",
+            "generated" : true,
+            "id" : true
+        },
         "accountname": {
             "type": "String",
             "required": "true"
         },
         "accountid": {
-            "type": "number",
-            "id": true,
+            "type": "string",
             "description": "Account id"
         },
         "accountopendate": {

@@ -28,11 +28,11 @@
             "type" : "string" ,
             "description" : "currency of the transaction currency"
         },
-        "craccountid" : {
+        "creditoraccount" : {
             "type" : "string" ,
             "description" : "credit account id"
         },
-        "draccountid" : {
+        "debitoraccount" : {
             "type" : "string" ,
             "description" : "debit account id"
         },
